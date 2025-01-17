@@ -64,6 +64,21 @@ The implementation is designed to be modular, separating responsibilities into d
   4. Updates token mappings.
   5. Applies output transformations.
 
+## Project Structure
+```
+- rearrange.py
+  - Contains the main rearrange function.
+- validators.py
+  - Contains the validators function that check input for errors and create input and output pattern-based mappings.
+- transformations.py
+  - Input pattern-based transformations and output pattern-based transformations. All done using NumPy
+- utils.py
+  - Utility functions shared across both implementations.
+- examples.py
+  - Basic examples of how to call the custom made function
+- tests/unit_test.py
+  - Some unit tests for different parts, including testing multiple variants of the pattern.
+```
 
 ---
 
@@ -72,3 +87,9 @@ The implementation is designed to be modular, separating responsibilities into d
 - **Invalid Arguments**: Detailed validation ensures compatibility between the array and the pattern.
 
 ---
+
+## Efficiency Tests
+
+to-do
+
+Want to compare the time taken to run custom implementation as compared to the function from the einops library.
