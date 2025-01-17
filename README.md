@@ -32,6 +32,10 @@ The `rearrange` function operates in the following logical steps:
 5. **Finalization**:
    - The transformed array is returned in the desired format.
 
+This is an explanation with an example that I created on Excalidraw. Someone introduced me to Excalidraw and I had a fun time playing around with it.
+
+![alt text](excalidraw_explanation.png)
+
 ---
 
 ## Design Decisions
